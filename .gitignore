@@ -1,0 +1,59 @@
+﻿# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+*.env
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Large datasets, generated videos, and submission packages
+# Keep directory READMEs/manifests in git; keep raw data and generated media out of git.
+dataset/**
+!dataset/**/
+!dataset/**/README*
+!dataset/**/readme*
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Model weights are documented in README and should be downloaded separately.
+weights/**/*.pth
+weights/**/*.pt
+weights/**/*.ckpt
+weights/**/*.safetensors
+!weights/**/README*
+
+# Generated experiment outputs can be reproduced or shared separately.
+part1_baseline/outputs/**
+part2_sota/outputs/**
+part3_exploration/outputs/**
+output/vimeo90k_small/**
+
+# Keep lightweight report assets and metrics tables.
+!output/tables/**
+!output/figures/**
+
+# Nested optional dependency repositories/build products
+Block-Sparse-Attention/.git/
+Block-Sparse-Attention/build/
+Block-Sparse-Attention/csrc/cutlass/media/docs/build/
+
+# Optional external dependency; install separately if needed.
+Block-Sparse-Attention/
+

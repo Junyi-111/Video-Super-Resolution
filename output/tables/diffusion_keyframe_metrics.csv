@@ -1,0 +1,10 @@
+frame,method,psnr,ssim,lpips
+80,Real-ESRGAN input,14.6212,0.8300,0.1550
+80,Diffusion conservative,14.3391,0.8095,0.1657
+80,Diffusion over-strong,14.2378,0.7639,0.2822
+120,Real-ESRGAN input,14.8690,0.8484,0.1490
+120,Diffusion conservative,14.5857,0.8328,0.1531
+120,Diffusion over-strong,14.5232,0.7988,0.3194
+160,Real-ESRGAN input,14.8149,0.8671,0.1130
+160,Diffusion conservative,14.5252,0.8558,0.1185
+160,Diffusion over-strong,14.3312,0.8245,0.2949

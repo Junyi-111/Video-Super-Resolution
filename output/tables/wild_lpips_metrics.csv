@@ -1,0 +1,10 @@
+method,lpips,tlpips,tlpips_proxy,sampled_frames,temporal_pairs,video,eval_policy,crop_twh
+LR input,0.2790,0.2261,0.3720,235,47,dataset/wild_real_lr.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Bicubic,0.2595,0.2079,0.3678,235,47,part1_baseline/outputs/wild_real_lr/wild_real_lr_part1_bicubic_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Lanczos,0.2615,0.2098,0.3679,235,47,part1_baseline/outputs/wild_real_lr/wild_real_lr_part1_lanczos_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Temporal+Unsharp,0.3399,0.3174,0.2999,235,47,part1_baseline/outputs/wild_real_lr/wild_real_lr_part1_temporal_w5_unsharp_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Real-ESRGAN,0.1267,0.0862,0.3536,235,47,part2_sota/outputs/wild_real_lr/realesrgan_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176
+BasicVSR,0.2908,0.2318,0.3743,235,47,part2_sota/outputs/basicvsr/wild_real_lr.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Part3 Hybrid,0.1634,0.1225,0.3406,235,47,part3_exploration/outputs/wild_real_lr_hybrid_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Part3 Flow-Stabilized,0.1437,0.0953,0.3503,235,47,part3_exploration/outputs/wild_real_lr_flow_stabilized_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176
+Part3 Uncertainty-Adaptive,0.1434,0.0920,0.3534,235,47,part3_exploration/outputs/wild_real_lr_uncertainty_adaptive_x4.mp4,unified_streaming_vsr_crop_minT,1280x2176

@@ -1,0 +1,2 @@
+dataset,clip,method,part,frames,psnr,ssim,lpips,tlpips,fid,temporal_mae,has_gt,pred_path,gt_path
+,wild_real_lr_fusion_x4,part3_c_fusion,,235,14.0677,0.8239,0.1406,0.0930,,,true,part3_exploration/direction_c_uncertainty/outputs/wild_real_lr_fusion_x4.mp4,dataset/wild_real.mp4

@@ -1,0 +1,21 @@
+﻿opencv-python
+numpy
+pandas
+scikit-image
+Pillow
+tqdm
+matplotlib
+torch
+torchvision
+lpips
+pypdf
+
+# Optional / method-specific packages:
+# realesrgan
+# basicsr
+# facexlib
+# gfpgan
+# diffusers
+# transformers
+# accelerate
+# xformers

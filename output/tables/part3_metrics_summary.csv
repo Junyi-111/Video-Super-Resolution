@@ -1,0 +1,6 @@
+method,clips_evaluated,mean_psnr
+part3_A_rectified_flow,1,13.9390
+part3_B_flow_stabilized,1,13.9781
+part3_B_temporal_gen_blend,1,13.8252
+part3_C_uncertainty_adaptive,1,13.9199
+part3_D_streaming_distilled,1,14.0615
